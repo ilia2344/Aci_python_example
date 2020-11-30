@@ -9,5 +9,7 @@ Entities that are getting created:
  - VRF
  - BD
  - Subnet
- - L3Out1 - the one that ACI will use as a default GW. ExtEPG = 0.0.0.0/0. BGP on
- - L3Out2 - another L3Out used for comms with remote DC. ExtEPG = specific subnet(l3out2_remote_sub). BGP on
+ - L3Out1 - the one that ACI will use as a default GW. ExtEPG = 0.0.0.0/0. BGP on (with MD5)
+ - L3Out2 - another L3Out used for comms with remote DC. ExtEPG = specific subnet(l3out2_remote_sub). BGP on (with MD5)
+ 
+ Expects existing contracts for Any to L3Out1(tnVzBrCPName="Any-to-GW") and Any to L3Out2(tnVzBrCPName="Any-to-DCI")
