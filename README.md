@@ -13,3 +13,5 @@ Entities that are getting created:
  - L3Out2 - another L3Out used for comms with remote DC. ExtEPG = specific subnet(l3out2_remote_sub). BGP on (with MD5)
  
  Expects existing contracts for Any to L3Out1(tnVzBrCPName="Any-to-GW") and Any to L3Out2(tnVzBrCPName="Any-to-DCI")
+ 
+ Tested on ACI fabric running version 3.2
