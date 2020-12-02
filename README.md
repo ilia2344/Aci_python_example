@@ -1,3 +1,4 @@
+ [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ilia2344/Aci_python_example)
 # Aci_python_example
 
 This script is using Cobra SDK to configure various Networking components of a tenant(Tenant tab) that may be required during build phase of ACI deployment.
@@ -16,4 +17,3 @@ Entities that are getting created:
  
  Tested on ACI fabric running version 3.2
  
- [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ilia2344/Aci_python_example)
